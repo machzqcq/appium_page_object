@@ -1,0 +1,1 @@
+TestCase,TestStep,keyword,screen_name,attribute_key,attribute_valueTC1,TS1,set_first_value,CalculatorScreen,name,TextField1TC1,TS2,set_second_value,CalculatorScreen,name,TextField2TC1,TS3,click_button,CalculatorScreen,class_name,UIAButtonTC1,TS4,verify_text,CalculatorScreen,class_name,UIAStaticText
