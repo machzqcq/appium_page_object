@@ -41,3 +41,8 @@ def selenium
 end
 
 After { @driver.quit }
+
+
+
+$devices = YAML.load(File.open('./lib/config/devices.yaml'))
+$emulators = YAML.load(File.open('./lib/config/emulators.yaml'))

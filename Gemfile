@@ -1,8 +1,5 @@
-source "https://www.rubygems.org"
+source 'https://www.rubygems.org'
 
-gem "selenium-webdriver"
-
-gem 'appium_console',     '~> 1.0.4'
 gem 'appium_lib',         '~> 6.0.0'
 gem 'rest-client',        '~> 1.6.7'
 gem 'rspec',              '~> 2.14.1'
@@ -11,3 +8,6 @@ gem 'rspec-expectations', '~> 2.14.5'
 gem 'spec',               '~> 5.3.4'
 gem 'sauce_whisk',        '~> 0.0.13'
 gem 'test-unit',          '~> 2.5.5' # required for bundle exec ruby xunit_android.rb
+gem 'activesupport', '4.1.8'
+gem 'watir-webdriver', '0.8.0'
+gem 'selenium-webdriver' , '2.47.1'

@@ -1,0 +1,21 @@
+emulators:
+  Nexus_5_API_23_x86:
+    caps:
+        platformName    : Android
+        deviceName     : IGNORED
+        avd : Nexus_5_API_23_x86
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+    appium_lib:
+        sauce_username:
+        sauce_access_key:
+  Nexus_4_API_23:
+    caps:
+        platformName    : Android
+        deviceName     : IGNORED
+        avd: Nexus_4_API_23
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
